@@ -106,7 +106,6 @@ export function PoolCard({ poolId, poolDetails, onRefresh }: PoolCardProps) {
                 className="flex-1"
                 onClick={handleClaim}
                 disabled={isLoading || !account}
-                variant="secondary"
               >
                 Claim Rewards
               </Button>
